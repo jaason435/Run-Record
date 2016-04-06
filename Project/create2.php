@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start(); 
+?>
 <html>
 <head>
 	<title>Create Account</title>
@@ -16,6 +17,7 @@
 </head>
 
 <body>
+	<?php include("navbar.php");
 	<div class="header">
 		<a href="main.php"><img width="100" height="100" alt="" src="images/logo.png"></a>
 		<h1><b>Create Account</b></h1>
